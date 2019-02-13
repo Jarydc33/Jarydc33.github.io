@@ -1,0 +1,300 @@
+
+html{
+	height: 100%;
+	width: 100%;
+	padding:0;
+}
+ body{	
+ 	margin:0;
+	padding:0;
+	min-height: 100%;
+	max-width:100%;
+	
+}
+
+
+h1{
+	font-family: "Verdana";
+}
+
+a{
+	color:black;
+
+}
+
+p{
+	
+	font-family: "Verdana";
+}
+
+
+.fixedRatioResize{
+
+	max-width:100%;
+	height:400px;
+	width:400px;
+
+}
+
+.homePage{
+	background-image: url("Html pages/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	
+	}
+
+.homeHeaderText{
+
+	margin-left:15px;
+
+}
+
+.homeHeader{
+	text-align:center;
+	width:100%;
+	margin:25px;
+	margin-left: 0;
+	margin-right: 0;
+	height: 50px;
+	background-color: #AFA7A7;
+	box-shadow: 10px 10px 10px #ccc;
+	border: solid 1px #666666;
+
+}
+
+.homeFooter{
+	position: fixed;
+	bottom:50px;
+	left:50%;
+}
+
+
+
+.homePicture1{
+	position:relative;
+	top:130%;
+	left:37%;
+}
+
+.homePicture1:hover{
+	box-shadow: 0 0 10px #ccc;
+}
+
+.homePicture2{
+	position:absolute;
+	top: 85%;
+	right:35%;
+}
+
+.homePicture2:hover{
+	box-shadow: 0 0 10px #ccc;
+}
+
+.homePicture3{
+	position:relative;
+	top:130%;
+	right:35%;
+}
+
+.homePicture3:hover{
+	box-shadow: 0 0 10px #ccc;
+}
+
+.aboutMe{
+   	
+   background-color: #AAE0D7;
+	
+}
+
+.aboutHeader{
+	text-align:center;
+	width:100%;
+	margin:25px;
+	margin-left: 0;
+	height: 50px;
+	background-color: #AFA7A7;
+	box-shadow: 10px 10px 10px #57c1af;
+	border: solid 1px #666666;
+
+}
+
+.aboutGeneral{
+	border-radius: 15px 50px;
+	background:url("Html pages/sa.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding:20px;
+	width: 100%;
+	height:250px;
+	box-shadow: 0 0 10px #ccc;
+	border: solid 1px black;
+	text-shadow: 0 0 2px #fdb4b4;
+}
+
+.aboutWork{
+
+	border-radius: 15px 50px;
+	background:url("Html pages/marine.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+	padding:20px;
+	width: 100%;
+	height:250px;
+	box-shadow: 0 0 10px #ccc;
+	border: solid 1px black;
+	text-shadow: 0 0 2px #fdb4b4;
+}
+
+.aboutEducation{
+
+	border-radius: 15px 50px;
+	background:url("Html pages/education.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding:20px;
+	width: 100%;
+	height:250px;
+	box-shadow: 0 0 10px #ccc;
+	border: solid 1px black;
+	text-shadow: 0 0 2px white;
+}
+
+.aboutRest{
+	border-radius: 15px 50px;
+	background:url("Html pages/usa.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	padding:20px;
+	width: 100%;
+	height:250px;
+	box-shadow: 0 0 10px #ccc;
+	border: solid 1px black;
+	text-shadow: 0 0 2px white;
+}
+
+
+.projectPage{
+	
+}
+
+.projectHeader{
+	position:absolute;
+	z-index: 2;
+	text-align:center;
+	width:100%;
+	margin:25px;
+	margin-left: 0;
+	height: 50px;
+	background-color: #AFA7A7;
+	box-shadow: 10px 10px 10px #ccc;
+	border: solid 1px #666666;
+}
+
+.projectFooter{
+	
+}
+
+#projectBackground{
+	z-index:1;
+	height:1000px;
+	position:absolute;
+	width:25%;
+	right:0;
+	top:0;
+	background-image: url("Html pages/brick.jpg");
+
+}
+
+#projectIdea{
+	position:absolute;
+	top:50%;
+	left:23%;
+	width:25%;
+	height:200px;
+	border: solid 1px black;
+	box-shadow: 10px 10px 10px #ccc;
+	border-radius:15px;
+}
+
+#userSubmit{
+
+	position:absolute;
+	top:72%;
+	right:63%;
+}
+
+#projectText{
+	position:absolute;
+	top:25%;	
+	right:35%;
+	max-width:100%;
+}
+
+.contactInfo{
+
+	background-image: url("Html pages/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	text-align: center;
+	color:white;
+}
+
+.contactHeader{
+
+	text-align:center;
+	width:100%;
+	margin:25px;
+	margin-left: 0;
+	height: 50px;
+	background-color: #AFA7A7;
+	box-shadow: 10px 10px 10px #ccc;
+	border: solid 1px #666666;
+}
+
+.contactFooter{
+	text-align: center;
+	color:white;
+	padding-top:100px;
+	padding-bottom:25px;
+	padding-left:50px;
+	padding-right:50px;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:300px;
+	margin-right:300px;
+	border:solid 1px black;
+	box-shadow: 20px 20px 20px #b3b3b3;
+	background-color: #AFA7A7;
+	border-radius: 15px;
+}
+
+.contactComments{
+	text-align:left;
+	width:25%;
+	height:120px;
+	padding:10px;
+	font-family: "verdana";
+	border: solid 1px black;
+	border-radius:15px;
+}
+
+.fixedWidth {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #949394 ;
+	position:relative;
+	bottom:0;
+	box-shadow: 0 0 10px #ccc;
+}
+
+img{
+	border-radius:50%;
+	max-width:100%;
+	}
+
+
